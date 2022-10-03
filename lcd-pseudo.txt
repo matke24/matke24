@@ -1,0 +1,19 @@
+
+power on
+
+wait 15ms after VDD>4.5V or wait 40ms after VDD>2.7V
+set interface
+wait 5ms
+set interface
+wait 1ms
+set interface
+
+display off
+display clear
+entry mode set
+
+set cursor to first line
+print hello 
+set cursor to second line
+prind world
+
